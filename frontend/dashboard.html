@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="username">User Dashboard</h1>
+        <img id="profilePicture" src="" alt="Profile Picture">
+        <p>Email: <span id="email"></span></p>
+        <p>Phone: <span id="phone"></span></p>
+        <p>Address: <span id="address"></span></p>
+        <p>Aadhar: <span id="aadhar"></span></p>
+        <form id="updateForm">
+            <input type="text" id="newPhone" placeholder="New Phone">
+            <input type="text" id="newAddress" placeholder="New Address">
+            <button type="submit">Update</button>
+        </form>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="profilePictureInput" name="profilePicture">
+            <button type="submit">Upload Profile Picture</button>
+        </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
