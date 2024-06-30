@@ -1,10 +1,11 @@
 {
-  "name": "webapp",
+  "name": "web-app",
   "version": "1.0.0",
   "description": "Web app with signup, login, and user dashboard",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "build": "cd backend && npm install"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
